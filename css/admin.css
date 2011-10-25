@@ -1,0 +1,59 @@
+#icon-simple-donate {
+	background: transparent url(../images/donate.png) no-repeat;
+}
+#sd_paypalform.imaged {
+	margin: 0px;
+	padding: 0px;
+}
+#sd_paypalform.imaged li {
+	margin: 3px;
+	width: 92px;
+	float: left;
+	text-align: center;
+}
+#sd_paypalform.imaged li img {
+	display: block;
+	margin: 0 auto;
+	border: #000 2px solid;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+#sd_paypalform.imaged li:hover img, #sd_paypalform.imaged li:hover input[type=number], #sd_paypalform.imaged li .sd_label_radio.checked img, #sd_paypalform.imaged li .sd_label_radio.checked input[type=number] {
+	background-color: #83A1C9;
+}
+#sd_paypalform.imaged li .donate_other_radio_label input {
+	width: 82px;
+	padding: 2px;
+	margin: 2px auto;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+}
+#sd_paypalform.imaged li .sd_radio {
+	display: none;
+}
+#sd_paypalform.imaged #sd_submit {
+	margin-top: -26px;
+	width: 177px;
+	border-color: #bbb;
+	color: #464646;
+	background-color: #fff;
+	text-decoration: none;
+	font-size: 12px!important;
+	line-height: 13px;
+	padding: 3px 8px;
+	cursor: pointer;
+	border-width: 1px;
+	border-style: solid;
+	-moz-border-radius: 11px;
+	-khtml-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	border-radius: 11px;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	-khtml-box-sizing: content-box;
+	box-sizing: content-box;
+	background: #f2f2f2 url(../images/white-grad.png) repeat-x scroll left top;
+	text-shadow: rgba(255,255,255,1) 0 1px 0;
+}

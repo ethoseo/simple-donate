@@ -1,0 +1,9 @@
+label .desc { font-size: 10px; color: #555; font-style: italic; }
+.subtitle {font-size:11px; font-weight:bold; color:#a7a7a7; display: block; padding-bottom: 3px; }
+.subtitle2 {font-size:10px; font-weight: bold; }
+.donation_header {border-bottom: 1px solid #a7a7a7; padding-bottom: 2px; }
+#add {float: right;}
+#simpledonate a.remove { font-size: 10px; color: #F00; text-decoration: none; font-weight: bold; }
+#simpledonate a.remove:hover { color: #000; }
+#itemlist li:first-child .remove { display: none; }
+.mceActionPanel { margin-bottom: 25px; }
