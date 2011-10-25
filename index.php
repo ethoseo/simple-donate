@@ -192,12 +192,12 @@ function convert_to_bool ( $items, $keys = FALSE) {
 function returnif($bool, $false = "", $true = FALSE) {
 	if($bool){
 		if($true){
-			echo $true;
+			return $true;
 		}else{
-			echo $bool;
+			return $bool;
 		}
 	}else{
-		echo $else;
+		return $else;
 	}
 }
 
